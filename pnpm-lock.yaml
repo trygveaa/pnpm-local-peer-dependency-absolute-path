@@ -1,0 +1,125 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+overrides:
+  '@csstools/selector-resolve-nested': file:csstools-selector-resolve-nested-3.0.0.tgz
+  '@csstools/selector-specificity': file:csstools-selector-specificity-5.0.0.tgz
+  cssesc: file:cssesc-3.0.0.tgz
+  nanoid: file:nanoid-5.0.8.tgz
+  picocolors: file:picocolors-1.1.1.tgz
+  source-map-js: file:source-map-js-1.2.1.tgz
+  postcss-selector-parser: file:postcss-selector-parser-7.0.0.tgz
+  util-deprecate: file:util-deprecate-1.0.2.tgz
+
+importers:
+
+  .:
+    dependencies:
+      postcss:
+        specifier: file:postcss-8.4.47.tgz
+        version: file:postcss-8.4.47.tgz
+      postcss-nesting:
+        specifier: file:postcss-nesting-13.0.1.tgz
+        version: file:postcss-nesting-13.0.1.tgz(postcss@file:postcss-8.4.47.tgz)
+      postcss-selector-parser:
+        specifier: file:postcss-selector-parser-7.0.0.tgz
+        version: file:postcss-selector-parser-7.0.0.tgz
+
+packages:
+
+  '@csstools/selector-resolve-nested@file:csstools-selector-resolve-nested-3.0.0.tgz':
+    resolution: {integrity: sha512-ZoK24Yku6VJU1gS79a5PFmC8yn3wIapiKmPgun0hZgEI5AOqgH2kiPRsPz1qkGv4HL+wuDLH83yQyk6inMYrJQ==, tarball: file:csstools-selector-resolve-nested-3.0.0.tgz}
+    version: 3.0.0
+    engines: {node: '>=18'}
+    peerDependencies:
+      postcss-selector-parser: file:/home/trygve/dev/pnpm-local-peer-dependency-absolute-path/postcss-selector-parser-7.0.0.tgz
+
+  '@csstools/selector-specificity@file:csstools-selector-specificity-5.0.0.tgz':
+    resolution: {integrity: sha512-PCqQV3c4CoVm3kdPhyeZ07VmBRdH2EpMFA/pd9OASpOEC3aXNGoqPDAZ80D0cLpMBxnmk0+yNhGsEx31hq7Gtw==, tarball: file:csstools-selector-specificity-5.0.0.tgz}
+    version: 5.0.0
+    engines: {node: '>=18'}
+    peerDependencies:
+      postcss-selector-parser: file:/home/trygve/dev/pnpm-local-peer-dependency-absolute-path/postcss-selector-parser-7.0.0.tgz
+
+  cssesc@file:cssesc-3.0.0.tgz:
+    resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==, tarball: file:cssesc-3.0.0.tgz}
+    version: 3.0.0
+    engines: {node: '>=4'}
+    hasBin: true
+
+  nanoid@file:nanoid-5.0.8.tgz:
+    resolution: {integrity: sha512-TcJPw+9RV9dibz1hHUzlLVy8N4X9TnwirAjrU08Juo6BNKggzVfP2ZJ/3ZUSq15Xl5i85i+Z89XBO90pB2PghQ==, tarball: file:nanoid-5.0.8.tgz}
+    version: 5.0.8
+    engines: {node: ^18 || >=20}
+    hasBin: true
+
+  picocolors@file:picocolors-1.1.1.tgz:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==, tarball: file:picocolors-1.1.1.tgz}
+    version: 1.1.1
+
+  postcss-nesting@file:postcss-nesting-13.0.1.tgz:
+    resolution: {integrity: sha512-VbqqHkOBOt4Uu3G8Dm8n6lU5+9cJFxiuty9+4rcoyRPO9zZS1JIs6td49VIoix3qYqELHlJIn46Oih9SAKo+yQ==, tarball: file:postcss-nesting-13.0.1.tgz}
+    version: 13.0.1
+    engines: {node: '>=18'}
+    peerDependencies:
+      postcss: ^8.4
+
+  postcss-selector-parser@file:postcss-selector-parser-7.0.0.tgz:
+    resolution: {integrity: sha512-9RbEr1Y7FFfptd/1eEdntyjMwLeghW1bHX9GWjXo19vx4ytPQhANltvVxDggzJl7mnWM+dX28kb6cyS/4iQjlQ==, tarball: file:postcss-selector-parser-7.0.0.tgz}
+    version: 7.0.0
+    engines: {node: '>=4'}
+
+  postcss@file:postcss-8.4.47.tgz:
+    resolution: {integrity: sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==, tarball: file:postcss-8.4.47.tgz}
+    version: 8.4.47
+    engines: {node: ^10 || ^12 || >=14}
+
+  source-map-js@file:source-map-js-1.2.1.tgz:
+    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==, tarball: file:source-map-js-1.2.1.tgz}
+    version: 1.2.1
+    engines: {node: '>=0.10.0'}
+
+  util-deprecate@file:util-deprecate-1.0.2.tgz:
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==, tarball: file:util-deprecate-1.0.2.tgz}
+    version: 1.0.2
+
+snapshots:
+
+  '@csstools/selector-resolve-nested@file:csstools-selector-resolve-nested-3.0.0.tgz(postcss-selector-parser@file:postcss-selector-parser-7.0.0.tgz)':
+    dependencies:
+      postcss-selector-parser: file:postcss-selector-parser-7.0.0.tgz
+
+  '@csstools/selector-specificity@file:csstools-selector-specificity-5.0.0.tgz(postcss-selector-parser@file:postcss-selector-parser-7.0.0.tgz)':
+    dependencies:
+      postcss-selector-parser: file:postcss-selector-parser-7.0.0.tgz
+
+  cssesc@file:cssesc-3.0.0.tgz: {}
+
+  nanoid@file:nanoid-5.0.8.tgz: {}
+
+  picocolors@file:picocolors-1.1.1.tgz: {}
+
+  postcss-nesting@file:postcss-nesting-13.0.1.tgz(postcss@file:postcss-8.4.47.tgz):
+    dependencies:
+      '@csstools/selector-resolve-nested': file:csstools-selector-resolve-nested-3.0.0.tgz(postcss-selector-parser@file:postcss-selector-parser-7.0.0.tgz)
+      '@csstools/selector-specificity': file:csstools-selector-specificity-5.0.0.tgz(postcss-selector-parser@file:postcss-selector-parser-7.0.0.tgz)
+      postcss: file:postcss-8.4.47.tgz
+      postcss-selector-parser: file:postcss-selector-parser-7.0.0.tgz
+
+  postcss-selector-parser@file:postcss-selector-parser-7.0.0.tgz:
+    dependencies:
+      cssesc: file:cssesc-3.0.0.tgz
+      util-deprecate: file:util-deprecate-1.0.2.tgz
+
+  postcss@file:postcss-8.4.47.tgz:
+    dependencies:
+      nanoid: file:nanoid-5.0.8.tgz
+      picocolors: file:picocolors-1.1.1.tgz
+      source-map-js: file:source-map-js-1.2.1.tgz
+
+  source-map-js@file:source-map-js-1.2.1.tgz: {}
+
+  util-deprecate@file:util-deprecate-1.0.2.tgz: {}
